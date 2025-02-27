@@ -1,0 +1,63 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2412                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      binary;
+    arch        "LSB;label=32;scalar=64";
+    class       volScalarField;
+    location    "0.1";
+    object      qin;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [1 0 -3 0 0 0 0];
+
+internalField   uniform 0;
+
+boundaryField
+{
+    outlet
+    {
+        type            calculated;
+        value           nonuniform List<scalar> 
+250
+(éA~Äcûg=èA~Äcûg=æA~Äcûg=éA~Äcûg=êA~Äcûg=æA~Äcûg=èA~Äcûg=èA~Äcûg=çA~Äcûg=GŠ×œøA=æA~Äcûg=æA~Äcûg=èA~Äcûg=åA~Äcûg=¡<H¿ïhC=ìA~ÄcûW=8"ìÚvá9èA~Äcûg=8"ìÚvá9r±^ÓŠüq=8"ìÚvá9çA~ÄcûW=êA~Äcûg=8"ìÚvá9ïA~ÄcûW=ãA~ÄcûW=ãA~ÄcûW=ï›°»wtH=ð›°»wtH=ï›°»wtH=çA~Äcûg=æA~Äcûg=äA~ÄcûW=ßA~Äcûg=p±^ÓŠüq=èA~Äcûg=áA~ÄcûW=æA~Äcûg=áA~ÄcûW=âA~Äcûg=l±^ÓŠüq=æA~ÄcûW=o±^ÓŠüq=j±^ÓŠüq=ßC²ž$¦`=k±^ÓŠüq=çA~Äcûg=êA~Äcûg=âA~Äcûg=R¢õF—£P=çA~Äcûg=èA~Äcûg=Å®'HO9q=Æ®'HO9q=çA~Äcûg=¢†;ìöÕy=î®'HO9q=Å®'HO9q=¯'HO9q=¯'HO9q=¯®'HO9=Ù®'HO9q=ï®'HO9q=°®'HO9q=¯®'HO9q=°®'HO9q=8"ìÚvá9Ñî#pt¨d=±®'HO9q=¯®'HO9q=ï#pt¨d=éA~Äcûg=
+;XÔÎr=ôî#pt¨t=ƒ†;ìöÕy=Ïî#pt¨d=ï#pt¨d=ï#pt¨d=Öî#pt¨d=Öî#pt¨d=éA~Äcûg=ºî#pt¨d=Ôî#pt¨d=äA~Äcûg=%†;ìöÕy=
+ï#pt¨d=¯'HO9q=óî#pt¨d=òî#pt¨d=í®'HO9=Ôî#pt¨d=Å®'HO9q=Öî#pt¨d=8"ìÚvá9)†;ìöÕy=8"ìÚvá9î®'HO9q=ï#pt¨d=8"ìÚvá9d†;ìöÕy=èA~Äcûg=·î#pt¨d=8"ìÚvá9îî#pt¨d=&†;ìöÕy=8"ìÚvá98"ìÚvá98"ìÚvá98"ìÚvá9æA~Äcûg=»î#pt¨d=¼î#pt¨d=Òî#pt¨d=Ðî#pt¨d=°®'HO9q=¯'HO9q=Ù®'HO9q=Ä®'HO9q=¯'HO9q=¯'HO9q=&†;ìöÕy=d†;ìöÕy=ï#pt¨d=&†;ìöÕy=Ôî#pt¨d=†;ìöÕy=†;ìöÕy=Ôî#pt¨d=%†;ìöÕy=Ôî#pt¨d=íî#pt¨d=îî#pt¨d=î®'HO9q=î®'HO9q=Å®'HO9q=8"ìÚvá98"ìÚvá9Ä®'HO9q=Å®'HO9q=ñî#pt¨d=ðî#pt¨d=î®'HO9q=8"ìÚvá9ïî#pt¨d=îî#pt¨d=ðî#pt¨d=éî#pt¨d=æA~Äcûg=8"ìÚvá9Å®'HO9q=¶î#pt¨d=8"ìÚvá98"ìÚvá9¹î#pt¨d=Ä®'HO9q=ñî#pt¨d=î®'HO9q=î®'HO9q=î®'HO9q=î®'HO9q=èA~Äcûg=¸î#pt¨d=Âî#pt¨d=¿î#pt¨d=éA~Äcûg=8"ìÚvá9òî#pt¨d=Àî#pt¨d=Àî#pt¨d=d†;ìöÕy=¸î#pt¨d=·î#pt¨d=µî#pt¨d=æA~Äcûg=çî#pt¨t=ñî#pt¨d=í®'HO9q=üî#pt¨d=¯'HO9q=ëî#pt¨d=í®'HO9=e†;ìöÕy=åî#pt¨d=êî#pt¨d=ðî#pt¨d=¾î#pt¨d=èî#pt¨d=ñî#pt¨d=òî#pt¨d=ïî#pt¨d=¾î#pt¨t=¾î#pt¨d=Å®'HO9q=Æ®'HO9q=š®'HO9q=êA~Äcûg=åA~Äcûg=Å®'HO9q=Æ®'HO9q=âA~Äcûg=éA~Äcûg=æA~Äcûg=«ñÈKiW=8"ìÚvá9<ë¢]—Ma=èA~ÄcûW=òA~ÄcûW=åA~Äcûg=8"ìÚvá9ÄC²ž$¦`=8"ìÚvá9ÜA~ÄcûW=çA~ÄcûW=evHb`=êA~ÄcûW=çA~ÄcûW=çA~Äcûg=éA~ÄcûW=ú,¨Ú­iJ=èA~ÄcûW=æA~ÄcûW=æA~ÄcûW=êA~ÄcûW=úA~ÄcûW=èA~ÄcûW=8"ìÚvá98"ìÚvá9àA~ÄcûW=ÚA~ÄcûW=êA~ÄcûW=[ÅŽ¿öD=rÅŽ¿öD=æA~Äcûg=pÅŽ¿öD=p±^ÓŠüq=æA~ÄcûW=ðA~ÄcûW=ÞA~ÄcûW=~¤ápa@[=n±^ÓŠüq=çA~Äcûg=çA~Äcûg=éA~ÄcûW=ëA~ÄcûW=ÚA~ÄcûW=åA~Äcûg=æA~Äcûg=ßA~ÄcûW=ÛA~ÄcûW=öA~ÄcûW=);
+    }
+    base
+    {
+        type            calculated;
+        value           nonuniform List<scalar> 0;
+    }
+    sides
+    {
+        type            calculated;
+        value           nonuniform List<scalar> 
+300
+(_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@^#BxÙ´|@^#BxÙ´|@_#BxÙ´|@]#BxÙ´|@]#BxÙ´|@^#BxÙ´|@]#BxÙ´|@^#BxÙ´|@^#BxÙ´|@]#BxÙ´|@_#BxÙ´|@`#BxÙ´|@`#BxÙ´|@_#BxÙ´|@`#BxÙ´|@`#BxÙ´|@^#BxÙ´|@_#BxÙ´|@_#BxÙ´|@]#BxÙ´|@^#BxÙ´|@^#BxÙ´|@^#BxÙ´|@^#BxÙ´|@^#BxÙ´|@^#BxÙ´|@^#BxÙ´|@_#BxÙ´|@^#BxÙ´|@^#BxÙ´|@^#BxÙ´|@^#BxÙ´|@^#BxÙ´|@^#BxÙ´|@]#BxÙ´|@^#BxÙ´|@^#BxÙ´|@^#BxÙ´|@^#BxÙ´|@^#BxÙ´|@^#BxÙ´|@^#BxÙ´|@]#BxÙ´|@^#BxÙ´|@\#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@]#BxÙ´|@^#BxÙ´|@^#BxÙ´|@`#BxÙ´|@]#BxÙ´|@_#BxÙ´|@_#BxÙ´|@`#BxÙ´|@^#BxÙ´|@^#BxÙ´|@_#BxÙ´|@^#BxÙ´|@]#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@^#BxÙ´|@_#BxÙ´|@`#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@^#BxÙ´|@^#BxÙ´|@`#BxÙ´|@_#BxÙ´|@_#BxÙ´|@^#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@]#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@]#BxÙ´|@_#BxÙ´|@^#BxÙ´|@a#BxÙ´|@_#BxÙ´|@]#BxÙ´|@_#BxÙ´|@^#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@^#BxÙ´|@_#BxÙ´|@_#BxÙ´|@^#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@^#BxÙ´|@_#BxÙ´|@^#BxÙ´|@_#BxÙ´|@_#BxÙ´|@^#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@]#BxÙ´|@_#BxÙ´|@_#BxÙ´|@^#BxÙ´|@_#BxÙ´|@_#BxÙ´|@^#BxÙ´|@^#BxÙ´|@`#BxÙ´|@_#BxÙ´|@_#BxÙ´|@]#BxÙ´|@_#BxÙ´|@a#BxÙ´|@]#BxÙ´|@_#BxÙ´|@]#BxÙ´|@^#BxÙ´|@_#BxÙ´|@]#BxÙ´|@_#BxÙ´|@_#BxÙ´|@^#BxÙ´|@^#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@b#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@a#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@^#BxÙ´|@_#BxÙ´|@`#BxÙ´|@_#BxÙ´|@_#BxÙ´|@^#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@`#BxÙ´|@^#BxÙ´|@_#BxÙ´|@]#BxÙ´|@_#BxÙ´|@_#BxÙ´|@^#BxÙ´|@_#BxÙ´|@_#BxÙ´|@a#BxÙ´|@`#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@a#BxÙ´|@_#BxÙ´|@_#BxÙ´|@]#BxÙ´|@_#BxÙ´|@^#BxÙ´|@_#BxÙ´|@^#BxÙ´|@^#BxÙ´|@^#BxÙ´|@`#BxÙ´|@^#BxÙ´|@_#BxÙ´|@]#BxÙ´|@^#BxÙ´|@`#BxÙ´|@_#BxÙ´|@^#BxÙ´|@_#BxÙ´|@^#BxÙ´|@_#BxÙ´|@^#BxÙ´|@_#BxÙ´|@_#BxÙ´|@^#BxÙ´|@`#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@^#BxÙ´|@_#BxÙ´|@_#BxÙ´|@^#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@]#BxÙ´|@_#BxÙ´|@^#BxÙ´|@]#BxÙ´|@_#BxÙ´|@]#BxÙ´|@_#BxÙ´|@_#BxÙ´|@]#BxÙ´|@_#BxÙ´|@^#BxÙ´|@_#BxÙ´|@`#BxÙ´|@]#BxÙ´|@_#BxÙ´|@]#BxÙ´|@^#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@`#BxÙ´|@_#BxÙ´|@^#BxÙ´|@]#BxÙ´|@`#BxÙ´|@`#BxÙ´|@]#BxÙ´|@]#BxÙ´|@]#BxÙ´|@_#BxÙ´|@_#BxÙ´|@^#BxÙ´|@_#BxÙ´|@_#BxÙ´|@^#BxÙ´|@_#BxÙ´|@]#BxÙ´|@_#BxÙ´|@_#BxÙ´|@^#BxÙ´|@^#BxÙ´|@^#BxÙ´|@_#BxÙ´|@_#BxÙ´|@^#BxÙ´|@^#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@^#BxÙ´|@^#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@^#BxÙ´|@_#BxÙ´|@^#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@_#BxÙ´|@]#BxÙ´|@_#BxÙ´|@);
+    }
+    defaultFaces
+    {
+        type            empty;
+    }
+    procBoundary2to0
+    {
+        type            processor;
+        value           uniform 0;
+    }
+    procBoundary2to3
+    {
+        type            processor;
+        value           uniform 0;
+    }
+}
+
+
+// ************************************************************************* //

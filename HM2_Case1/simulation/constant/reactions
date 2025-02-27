@@ -1,0 +1,17 @@
+species
+(
+    O2
+    H2O
+    CH4
+    CO2
+    N2
+);
+
+reactions
+{
+    propaneReaction
+    {
+        type         irreversibleinfiniteReaction;
+        reaction      "10CH4 + 20O2 + 15N2 = 2CO2 + 20H2O + 15N2";
+    }
+}

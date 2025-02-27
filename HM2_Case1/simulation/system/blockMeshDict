@@ -1,0 +1,83 @@
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      blockMeshDict;
+}
+
+convertToMeters 1;
+
+vertices
+(
+    (0 0 0)          // 0
+    (100 0 0)        // 1
+    (150 0 0)        // 2
+    (250 0 0)        // 3
+    (0 23.94 0)      // 4
+    (100 23.94 0)    // 5
+    (150 23.94 0)    // 6
+    (250 23.94 0)    // 7
+    (0 0 20.90)      // 8
+    (100 0 20.90)    // 9
+    (150 0 20.90)    // 10
+    (250 0 20.90)    // 11
+    (0 23.94 20.90)  // 12
+    (100 23.94 20.90)// 13
+    (150 23.94 20.90)// 14
+    (250 23.94 20.90)// 15
+);
+
+blocks
+(
+    hex (0 1 5 4 8 9 13 12) (10 10 10) simpleGrading (0.5 1 1)
+    hex (1 2 6 5 9 10 14 13) (30 10 10) simpleGrading (1 1 1) // Bloco refinado
+    hex (2 3 7 6 10 11 15 14) (10 10 10) simpleGrading (2 1 1)
+);
+
+edges
+(
+);
+
+boundary
+(
+    outlet
+    {
+        type patch;
+        faces
+        (
+            (8 9 13 12)
+            (9 10 14 13)
+            (10 11 15 14)
+        );
+    }
+
+    base
+    {
+        type wall;
+        faces
+        (
+            (1 2 6 5)     // Face inferior do bloco 2 (antes "BASE")
+        );
+    }
+
+    sides
+    {
+        type wall;
+        faces
+        (
+            (0 4 12 8)    // Face externa do bloco 1 no plano yz (x = 0) – contém o vértice (0,0,0)
+            (3 7 15 11)   // Face externa do bloco 3 no plano yz (x = 250) – contém o vértice (250,0,0)
+            (0 1 9 8)     // Lateral frontal do bloco 1 (y = 0)
+            (4 5 13 12)   // Lateral traseira do bloco 1 (y = 23.94)
+            (3 2 10 11)   // Lateral frontal do bloco 3 (y = 0)
+            (7 6 14 15)   // Lateral traseira do bloco 3 (y = 23.94)
+            (1 2 10 9)    // Lateral frontal do bloco 2 (y = 0)
+            (5 6 14 13)   // Lateral traseira do bloco 2 (y = 23.94)
+        );
+    }
+);
+
+mergePatchPairs
+(
+);
